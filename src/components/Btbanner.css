@@ -1,0 +1,13 @@
+.btbanner-bg {
+    height: 7px;
+    width: 100%;
+    background-color: rgb(255, 129, 11);
+}
+
+@media only screen and (max-width: 414px){
+    .btbanner-bg {
+        width: 100%;
+        height: 4px;
+        
+    }
+}

@@ -1,0 +1,74 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+.header1 {
+    background: #275694 ;
+    height: 80px;
+    
+}
+.header {
+    background: #275694 ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 80px;
+    
+}
+
+.header-con {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    
+    
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 15px;
+    
+}
+
+
+.menu li{
+    padding-right: 2rem;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.NSCH {
+    width: 18%;
+    position: absolute;
+    left: 70px;
+    top: -3rem;
+    
+    }
+.PSUH {   
+    width: 12%;
+    position: absolute;
+    left: 410px;
+    top: 0.5rem;
+    }
+.NSC2H {
+    width: 3%;
+    position: absolute;
+    left: 20px;
+    top: 0.5rem;
+    }
+
+.button-header-login {
+    border-radius: 30px;
+    position: absolute;
+    left: 1740px;
+    background: #ffffff ;
+    font-size: 1.2rem;
+    width: 20%;
+    }

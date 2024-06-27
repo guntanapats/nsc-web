@@ -1,0 +1,49 @@
+.img1Member-Home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+.img2 {
+    display: flex;
+    margin: auto;
+    }
+    
+
+.ShowSidebarMember-Home {
+    display: none;
+}
+
+@media only screen and (max-width: 820px){
+    .img1Member-Home {
+        
+        width: 45rem;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .ShowSidebarMember-Home {
+        display: block;
+    }
+    .ShowHeaderMember-Home {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .img1Member-Home {
+        width: 26rem;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 9rem;
+    }
+    
+    .ShowSidebarMember-Home {
+        display: block;
+    }
+    .ShowHeaderMember-Home {
+        display: none;
+    }
+}

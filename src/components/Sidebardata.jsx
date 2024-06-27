@@ -1,0 +1,56 @@
+import React from "react";
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import * as Ioicons from 'react-icons/io';
+import * as RiIcons from 'react-icons/ri';
+import * as GiIcons from "react-icons/gr";
+import * as MdIcons from "react-icons/md";
+import NSC from './NSC.png';
+
+export const SidebarData = [
+    {
+        title: 'หน้าหลัก',
+        path: '/home',
+        icon: <AiIcons.AiFillHome />,
+    },
+    {
+        title: 'เกี่ยวกับ NSC',
+        path: '/NSC',
+        icon: <AiIcons.AiFillProject />,
+        // icon: <img src={NSC} height='30px'/>,
+    },
+    // {
+    //     title: 'รายละเอียดโครงการ',
+    //     path: '/Member',
+    //     icon: <FaIcons.FaUniversity />,
+    // },
+    {
+        title: 'ข้อมูลรายละเอียดการแข่งขัน',
+        path: '/Info',
+        icon: <FaIcons.FaRegNewspaper />,
+        // iconClosed: <RiIcons.RiArrowDownSFill />,
+        // iconOpened: <RiIcons.RiArrowUpSFill />,
+        // subNav: [
+        //     {
+        //         title: 'หัวข้อการแข่งขัน',
+        //         path: '/Info/Type',
+        //     },
+        //     {
+        //         title: 'คุณสมบัติผู้สมัคร',
+        //         path: '/Info/Qualification',
+        //     }
+        // ]
+    },
+    {
+        title: 'ติดต่อเรา',
+        path: '/Contact',
+        icon: <MdIcons.MdOutlineContactSupport />,
+    },
+    {
+        title: 'เข้าสู่ระบบ',
+        path: '/login',
+        icon: <RiIcons.RiLoginBoxLine />,
+    },
+    
+
+]

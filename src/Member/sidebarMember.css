@@ -1,0 +1,102 @@
+.Nav {
+    background: #085AB7; 
+    height: 80px;
+    width: 1960px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+.NavIcon {
+    margin-left: 2rem;
+    font-size: 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+.NSC {
+    width: 18%;
+    position: absolute;
+    left: 130px;
+    top: auto;
+    }
+.PSU {   
+    width: 13%;
+    position: absolute;
+    right: 20px
+    }
+.NSC2 {
+    width: 3%;
+    position: absolute;
+    left: 83px;
+    }
+@media only screen and (max-width: 820px){
+    .Nav {
+        background: #085AB7; 
+        width: 820px;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .NSC {
+        width: 30%;
+        position: absolute;
+        left: 130px;
+    }
+    .PSU {
+        
+        width: calc(30%);
+        position: absolute;
+        right: 10px
+    }
+    .NSC2 {
+        width: 6%;
+        position: absolute;
+        left: 83px;
+    }
+    .NavIcon {
+        margin-left: 2rem;
+        font-size: 2rem;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 414px){
+    .Nav {
+        background: #085AB7; 
+        width: 414px;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .NSC {
+        display: none;
+    }
+    .PSU {
+        
+        width: 30%;
+        position: absolute;
+        right: 10px
+    }
+    .NSC2 {
+        
+        width: 12%;
+        position: absolute;
+        left: 83px;
+    }
+    .NavIcon {
+        margin-left: 2rem;
+        font-size: 2rem;
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}

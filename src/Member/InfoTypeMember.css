@@ -1,0 +1,38 @@
+.ShowSidebarMember-Info {
+    display: none;
+}
+
+.imgNSC-Info {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 820px){
+    .ShowSidebarMember-Info {
+        display: block;
+    }
+    .ShowHeaderMember-Info {
+        display: none;
+    }
+    .imgNSCMember-Info {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .ShowSidebarMember-Info {
+        display: block;
+    }
+    .ShowHeaderMember-Info {
+        display: none;
+    }
+    .imgNSCMember-Info {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: 100%;
+    }
+}

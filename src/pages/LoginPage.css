@@ -1,0 +1,113 @@
+.InputContainer input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px; 
+    width: 70%;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin: 15px ;
+    position: relative;
+}
+    :focus{
+        display: inline-block;
+        box-shadow: 0 0 0 0.2rem #2d166e;
+        backdrop-filter: blur(12rem);
+        border-radius: 2rem;
+    }
+    ::placeholder{
+        color: #2a126d99;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+    
+    
+
+
+.MainContainer {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    
+}
+
+.LoginText {
+    margin: 3rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+.ButtonContainer input{
+    margin: 2rem 0 2rem ;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px;
+    background: linear-gradient(135deg,#36aa7d,#43a18d);
+}
+
+.HorizontalRule {
+    width: 80%;
+    height: 0.3rem;
+    border-radius: 0.8rem;
+    border: none;
+    margin: 2.5em 0 1rem 0;
+    background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+    backdrop-filter: blur(25px);
+}
+
+.Background {
+    background: linear-gradient(to bottom, #6b85d1 10%, #353e5c 80%);
+}
+
+.loginform {
+    align-items: center;
+    justify-content: center;
+}
+
+.TopPosition {
+    margin-top: 8rem;
+}
+
+@media only screen and (max-width: 820px){
+    .MainContainer {
+        width: 85vw;
+    }
+    .LoginText {
+        font-size: 5rem;
+        margin: 5rem 0 2rem 0;
+    }
+    .InputContainer input {
+        font-size: 20px;
+        width: 85%;
+    }
+    .HorizontalRule {
+        width: 90%;
+    }
+    .ButtonContainer input {
+        width: 40%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .LoginText {
+        font-size: 3rem;
+        
+    }
+}

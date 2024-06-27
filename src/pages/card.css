@@ -1,0 +1,60 @@
+.ShowSidebar-card {
+    display: none;
+}
+
+
+.Container {
+    display: flex;
+    width: 100%;
+    margin-top: 8rem;
+    
+    
+    
+}
+.CardContainer {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 8.5rem;
+   
+    
+}
+
+@media only screen and (max-width: 820px){
+    .ShowSidebar-card {
+        display: block;
+    }
+    .ShowHeader-card {
+        display: none;
+    }
+    
+    .Container {
+        display: flex;
+        width: 100%;
+        margin-top: 6rem;
+        flex-direction: column;
+    }
+        
+        
+   
+    
+}
+
+@media only screen and (max-width: 414px){
+    .ShowSidebar-card {
+        display: block;
+    }
+    .ShowHeader-card {
+        display: none;
+    }
+    
+    .CardContainer {
+        display: flex;
+        width: 100%;
+        margin-top: 2rem;
+        flex-direction: column;
+        
+        
+    }
+}
